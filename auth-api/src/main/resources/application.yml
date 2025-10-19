@@ -1,0 +1,14 @@
+jwt:
+  secret: ${JWT_SECRET}}
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Test
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+INTERNAL_SECRET_TOKEN: ${INTERNAL_SECRET_TOKEN}

@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+internal:
+  secret:
+    token: ${INTERNAL_SECRET_TOKEN}
