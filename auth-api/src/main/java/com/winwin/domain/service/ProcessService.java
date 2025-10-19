@@ -5,6 +5,7 @@ import com.winwin.infrastructure.adapter.outbound.feign.DataApiClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.time.Instant;
 import java.util.Map;
 import java.util.UUID;
 
@@ -25,7 +26,8 @@ public class ProcessService {
     public String processData(UUID userId, String inputData) {
         Map<String, String> response = dataApiClient.transform(Map.of("text", inputData), secretToken);
         String resultData = response.get("result");
-        dataServiceSpi.saveData(userId, inputData, resultData);
+        Instant now = Instant.now();
+        dataServiceSpi.saveData(userId, inputData, resultData, now);
         return resultData;
     }
 }

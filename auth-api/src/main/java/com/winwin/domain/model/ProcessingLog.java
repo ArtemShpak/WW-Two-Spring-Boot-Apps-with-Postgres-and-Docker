@@ -25,7 +25,7 @@ public class ProcessingLog {
     private String outputData;
 
     @Column(name = "created_at")
-    private Instant createdAt = Instant.now();
+    private Instant createdAt;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
