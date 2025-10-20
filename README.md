@@ -23,5 +23,37 @@ docker-compose down
 ```
 ### Variant 2: Launch on local machine
 #### Using IntelliJ IDEA
+##### Create two values.yml files in resources folders of both projects:
+For data-api module:
+```yaml
+internal:
+  secret:
+    token: your_token
+```
+For auth-api module:
+```yaml
+jwt:
+  secret: your_jwt_secret_key
+
+database:
+  url: your_database_url
+  username: your_database_username
+  password: your_database_password
+
+internal:
+  token: your_token
+```
+Build both modules using Maven:
+In root folder run:
+```bash
+mvn clean install
+```
+To run each module:
+```bash
+mvn spring-boot:run -pl auth-api
+```
+```bash
+mvn spring-boot:run -pl data-api
+```
 - Open project and run using Spring Boot files. (AuthApiApplication.java and DataApiApplication.java)
 
