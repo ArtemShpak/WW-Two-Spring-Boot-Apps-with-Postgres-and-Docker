@@ -1,2 +1,3 @@
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\data-api\src\main\java\com\winwin\DataApiApplication.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\data-api\src\main\java\com\winwin\infrastructure\adapter\inbound\rest\DataController.java
+C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\data-api\src\main\java\com\winwin\infrastructure\config\EnvConfig.java

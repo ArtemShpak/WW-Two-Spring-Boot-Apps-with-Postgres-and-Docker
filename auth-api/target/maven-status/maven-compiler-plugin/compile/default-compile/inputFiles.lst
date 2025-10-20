@@ -21,6 +21,7 @@ C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\infrastructure\adapter\outbound\persistence\JpaUserRepository.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\domain\model\User.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\infrastructure\adapter\inbound\rest\dto\LoginRequest.java
+C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\infrastructure\config\EnvConfig.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\infrastructure\adapter\inbound\security\JwtTokenAdapter.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\infrastructure\adapter\inbound\rest\dto\RegisterRequest.java
 C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\java\com\winwin\domain\model\ProcessingLog.java

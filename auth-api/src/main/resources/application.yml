@@ -1,14 +1,18 @@
 jwt:
-  secret: ${JWT_SECRET}}
+  secret: ${jwt.secret}
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/Test
-    username: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
+    url: ${database.url}
+    username: ${database.username}
+    password: ${database.password}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-INTERNAL_SECRET_TOKEN: ${INTERNAL_SECRET_TOKEN}
+  config:
+    import: classpath:values.yml
+
+internal:
+  token: ${internal.token}

@@ -8,6 +8,7 @@ com\winwin\domain\port\LoginSpi.class
 com\winwin\domain\port\DataServiceSpi.class
 com\winwin\domain\service\DataService.class
 com\winwin\infrastructure\config\JwtAuthFilter.class
+com\winwin\infrastructure\config\EnvConfig.class
 com\winwin\infrastructure\adapter\inbound\rest\dto\AuthRequest.class
 com\winwin\application\service\UserInfoDetailsService.class
 com\winwin\application\usecase\LoginUseCase.class

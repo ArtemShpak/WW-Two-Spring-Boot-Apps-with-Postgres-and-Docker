@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 
 .env
+C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\data-api\src\main\resources\values.yml
+C:\Users\Artem\Desktop\WW-Two-Spring-Boot-Apps-with-Postgres-and-Docker\auth-api\src\main\resources\values.yml

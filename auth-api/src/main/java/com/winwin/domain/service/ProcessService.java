@@ -12,7 +12,7 @@ import java.util.UUID;
 @Service
 public class ProcessService {
 
-    @Value("${INTERNAL_SECRET_TOKEN}")
+    @Value("${internal.token}")
     private String secretToken;
 
     private final DataApiClient dataApiClient;

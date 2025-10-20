@@ -1,6 +1,11 @@
 server:
   port: 8081
 
+spring:
+  config:
+    import: classpath:values.yml
+
 internal:
   secret:
-    token: ${INTERNAL_SECRET_TOKEN}
+    token: ${internal.secret.token}
+
